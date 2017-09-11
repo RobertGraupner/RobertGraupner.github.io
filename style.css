@@ -1,0 +1,568 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,500,600,700,800&subset=latin-ext');
+
+/* Clean format */
+
+* {
+	box-sizing: border-box;
+}
+
+*, body {
+	margin: 0;
+	padding: 0;
+ 	font-family: 'Open Sans', sans-serif;
+}
+
+a {
+	color: white;
+    text-decoration: none;
+    font-size: 15px;
+    padding: 0 15px;
+}
+
+/* Clearfix */
+
+.row:before,
+.row:after {
+    content:"";
+    display: table ;
+    clear: both;
+}
+
+/* General */
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+p {
+    line-height: 24px;
+    padding: 0 15px;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 400;
+    padding: 0 15px;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 300;
+    padding: 0 15px;
+}
+
+h3 {
+    font-size: 14px;
+    font-weight: 600;
+	padding: 0 15px;
+}
+
+/*First section with picture */
+
+.hero {
+    background: url(http://imgur.com/QUCd9be.jpg) fixed no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: relative; 
+    color: white;
+}
+
+.logo {
+    position: absolute;
+    top: 50px;
+    left: 20px;
+    background: url(http://imgur.com/2o8KV2Y.jpg);
+    height: 43px;
+    width: 93px;
+}
+
+.logo:hover {
+	cursor: pointer;
+}
+
+.slogan {
+    position: absolute;
+    top: 40vh;
+}
+
+.slogan h1 {
+    font-size: 60px;
+    font-weight: 300;
+}
+
+/* Second section with text */
+
+.start {
+    margin: 20px 0;
+    color: grey;
+}
+
+.start p {
+    font-size: 14px;
+    padding: 10px;
+} 
+
+.secondCol p {
+	position: relative;
+	top: 92px;
+}
+
+.phone {
+    position: relative;
+}
+
+.phone > img {
+    position: absolute;
+    bottom: -180px;
+    left: -90px;
+}
+
+/* Third section with gallery box */
+	
+.box {
+    position: relative;
+    height: 280px;
+    padding: 30px;
+    color: white;
+}
+
+.box p {
+    margin: 20px 0;
+    max-width: 400px;
+}
+
+.box h2 {
+	padding-top: 20px;
+}
+
+.box a {
+    position: absolute;
+    bottom: 40px;
+}
+
+.design {
+    background-color: #f5979c;
+}
+
+.design:hover {
+    background-color: #d3757a;
+    cursor: pointer;
+}
+
+.built {
+    background-color: #615e7d;
+}
+
+.built:hover {
+    background-color: #393c5b;
+    cursor: pointer;
+}
+
+.clients {
+    background: url(http://imgur.com/0R7sNRO.jpg);
+    background-size: cover;
+}
+
+.clients:hover {
+	background-color: rgba(0, 0, 0, 0.5);
+	background-size: cover;
+	cursor: pointer;
+	opacity: 0.5;
+}
+
+.shoot {
+    background-color: #bc8cbe;
+}
+
+.shoot:hover {
+    background-color: #9b6a9c;
+    cursor: pointer;
+}
+
+.sign {
+    background: url(http://imgur.com/qreSiQO.jpg);
+    background-size: cover;
+}
+
+.sign:hover {
+	background-color: rgba(0, 0, 0, 0.5);
+	background-size: cover;
+	cursor: pointer;
+	opacity: 0.5;
+}
+
+.perfect {
+    background-color: #81c99c;
+}
+
+.perfect:hover {
+    background-color: #59a77a;
+    cursor: pointer;
+}
+
+.new {
+    background: url(http://imgur.com/zXMNyLa.jpg);
+    background-size: cover;
+}
+
+.new:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+	background-size: cover;
+	cursor: pointer;
+	opacity: 1; 
+}
+
+/* Fourth section with 4 column with text */
+
+.details {
+    width: 100%;
+    color: grey;
+    margin-top: 20px;
+}
+
+.details p {
+	font-size: 14px;
+}
+
+.details h3 {
+    margin-top: 35px;
+    margin-bottom: 25px;
+}
+
+/* Fifth section with car picture */
+
+.carPicture {
+    background: url(http://imgur.com/lm1NorP.jpg) fixed no-repeat;
+   	background-size: cover;
+    height: 100vh;
+    position: relative; 
+    margin-top: 50px;
+    color: white;
+}
+
+.carPicture h1 {
+    color: white;
+    font-size: 50px;
+    max-width: 500px;
+    padding-top: 30vh;
+}
+
+.carPicture p {
+    padding: 10px 15px;
+    font-size: 13px;
+    max-width: 480px;
+}
+
+/* Sixth section with 3 colums on color background */
+
+.oneColor {
+    background-color: #81c99b;
+    padding: 80px 0;
+    color: white;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+	
+.oneColor h3 {
+	margin-top: 35px;
+    margin-bottom: 25px;
+}
+
+.oneColor p {
+    font-size: 14px;
+}
+
+/* Seventh section with buying options */
+.buy {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin: 0 auto;
+}
+
+.basket {
+    padding: 50px;
+    min-height: 400px;
+	float: left;
+	color: grey;
+	position: relative;
+	left: 5%;
+}
+
+.basket h2 {
+    padding: 10px 0;
+}
+
+.basket p {
+    padding-bottom: 24px;
+    max-width: 450px;
+}
+
+.category {
+    color: white;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #bc8cbe;
+    display: inline;
+    margin-top: 25px;
+}
+
+.button {
+    color: white;
+    width: 150px;
+    height: 50px;
+    background-color: #81c99b;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 5px 12px;
+    border-radius: 4px;
+    background-color: #81c99b;
+    border: 0;
+    margin-bottom: 20px;
+}
+
+.basket .fa {
+    padding-right: 10px;
+    color: grey;
+}
+
+.basket:hover {
+    background-color: white;
+    box-shadow: 0px 0px 20px 20px rgba(120, 120, 120, 0.1);  
+}
+
+.button:hover {
+    background-color: #59a77a; 
+}
+
+/* Footer */
+
+footer {
+    width: 100%;
+    background-color: #192331;
+    padding: 75px 0 75px 0;
+    color: white;
+}
+
+footer p {
+    padding-bottom: 50px;
+}
+
+footer h3 {
+    padding-bottom: 25px;
+}
+
+.stay {
+    max-width: 600px;
+    width: 100%;
+    padding: 0 15px 0 15px;
+    float: right;
+    height: 200px;
+}
+
+.stay form {
+    position: relative;
+}
+
+.stay input {
+    height: 50px;
+    font-size: 35px;
+    font-weight: 300;
+    width: calc(100% - 70px);
+    border: 0;
+    position: absolute;
+}
+
+.stay_textArea button {
+    height: 50px;
+    min-width: 70px;
+    background-color: #81c99b; 
+    border: 0;
+    position: absolute;
+    right: 0;
+}
+
+.stay_textArea button:hover {
+	background-color: #59a77a;
+    cursor: pointer;
+}
+
+.stay p {
+    padding-top: 60px;
+    font-size: 12px;
+    font-weight: 600;
+    max-width: 400px;
+}
+
+.get p {
+	text-align: left;
+}
+
+footer ul {
+    text-decoration: none;
+    list-style: none;
+}
+
+footer ul a {
+    font-weight: 300;
+    padding-top: 5px 0 0 5px;
+}
+
+.links {
+	width: 50%;
+}
+
+/* Column */
+
+[class*="col-"] {
+	float: left;
+	min-height: 10px;
+	padding-top: 0px;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+.col-offset-0 {margin-left: 0;}
+.col-offset-1 {margin-left: 8.33%;}
+.col-offset-2 {margin-left: 16.66%}
+.col-offset-3 {margin-left: 25%;}
+.col-offset-4 {margin-left: 33.33%;}
+.col-offset-5 {margin-left: 41.66%;}
+.col-offset-6 {margin-left: 50%;}
+.col-offset-7 {margin-left: 58.33%;}
+.col-offset-8 {margin-left: 66.66%;}
+.col-offset-9 {margin-left: 75%;}
+.col-offset-10 {margin-left: 83.33%;}
+.col-offset-11 {margin-left: 91.66%;}
+.col-offset-12 {margin-left: 100%;}
+
+@media (max-width: 1199px) {
+	
+	/*FOR TABLETS: */
+	.col-m-1 {width: 8.33%;}
+	.col-m-2 {width: 16.66%;}
+	.col-m-3 {width: 25%;}
+	.col-m-4 {width: 33.33%;}
+	.col-m-5 {width: 41.66%;}
+	.col-m-6 {width: 50%;}
+	.col-m-7 {width: 58.33%;}
+	.col-m-8 {width: 66.66%;}
+	.col-m-9 {width: 75%;}
+	.col-m-10 {width: 83.33%;}
+	.col-m-11 {width: 91.66%;}
+	.col-m-12 {width: 100%;}
+	
+	.container {
+		max-width: 100%;
+	}
+	
+	.secondCol p {
+	position: relative;
+	top: -12px;
+	}
+	
+	.phone img {
+		display: none;
+	}
+	
+	.slogan {
+		position: relative;
+		margin: 0 auto;
+		text-align: center;
+	}
+	
+	.start h1 {
+		text-align: center;
+	}
+	
+	.start p {
+		text-align: left;
+	}
+	
+	.secondCol {
+		padding-top: 12px;
+	}
+	
+	.details h1 {
+		text-align: center;
+	}
+	
+	.details p {
+		text-align: left;
+		padding-bottom: 10px;
+	}
+	
+	.carPicture {
+		margin: 0 auto;
+		text-align: center;
+	}
+
+	.carPicture h1, p {
+		margin: 0 auto;
+		text-align: center;
+	}
+	
+	.oneColor h1 {
+		text-align: center;
+	}
+	
+	.oneColor p {
+		text-align: left;
+	}
+	
+	.basket {
+		width: 75%;
+        margin: 0 auto;
+        float: none;
+        left: -5px;
+	}
+	
+	.links {
+        width: 100%;
+        margin: 0 auto;
+        position: relative;
+        left: 10%;
+    }
+}
+	
+/*under 768*/
+
+@media (max-width: 768px) {
+	/*FOR smartphone: */
+	.col-s-1 {width: 8.33%;}
+	.col-s-2 {width: 16.66%;}
+	.col-s-3 {width: 25%;}
+	.col-s-4 {width: 33.33%;}
+	.col-s-5 {width: 41.66%;}
+	.col-s-6 {width: 50%;}
+	.col-s-7 {width: 58.33%;}
+	.col-s-8 {width: 66.66%;}
+	.col-s-9 {width: 75%;}
+	.col-s-10 {width: 83.33%;}
+	.col-s-11 {width: 91.66%;}
+	.col-s-12 {width: 100%;}
+		
+	.links {
+        width: 100%;
+        margin: 0 auto;
+       	position: relative;
+       	left: 3%;
+    }
+}
